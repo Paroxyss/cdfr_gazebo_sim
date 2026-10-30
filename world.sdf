@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<?xml-model href="https://sdformat.org/schemas/root.xsd" type="application/xml"?>
+
+<sdf version="1.12">
+	<world name="cdfr">
+		<include>
+			<uri>table</uri>
+		</include>
+		
+		<include> <uri>pierre</uri> <name>pierre1</name> <pose>0.25 0.945 0.055 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre2</name> <pose>0.25 0.945 0.165 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre3</name> <pose>0.25 0.945 0.275 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre4</name> <pose>-0.25 0.945 0.055 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre5</name> <pose>-0.25 0.945 0.165 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre6</name> <pose>-0.25 0.945 0.275 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre7</name> <pose>-0.25 -0.945 0.055 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre8</name> <pose>-0.25 -0.945 0.165 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre9</name> <pose>-0.25 -0.945 0.275 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre10</name> <pose>0.25 -0.945 0.055 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre11</name> <pose>0.25 -0.945 0.165 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre12</name> <pose>0.25 -0.945 0.275 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre13</name> <pose>0.75 0.945 0.055 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre14</name> <pose>0.75 0.945 0.165 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre15</name> <pose>0.75 0.945 0.275 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre16</name> <pose>-0.75 0.945 0.055 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre17</name> <pose>-0.75 0.945 0.165 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre18</name> <pose>-0.75 0.945 0.275 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre19</name> <pose>-0.75 -0.945 0.055 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre20</name> <pose>-0.75 -0.945 0.165 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre21</name> <pose>-0.75 -0.945 0.275 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre22</name> <pose>0.75 -0.945 0.055 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre23</name> <pose>0.75 -0.945 0.165 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre24</name> <pose>0.75 -0.945 0.275 0 0 0</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre25</name> <pose>0.0 0.5 0.055 0 0 1.5707963267948966</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre26</name> <pose>0.0 0.5 0.165 0 0 1.5707963267948966</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre27</name> <pose>0.0 0.5 0.275 0 0 1.5707963267948966</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre28</name> <pose>0.0 -0.5 0.055 0 0 1.5707963267948966</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre29</name> <pose>0.0 -0.5 0.165 0 0 1.5707963267948966</pose> </include>
+		<include> <uri>pierre</uri> <name>pierre30</name> <pose>0.0 -0.5 0.275 0 0 1.5707963267948966</pose> </include>
+
+		<light type="point" name="p1">
+			<cast_shadows>true</cast_shadows>
+			<pose>1.4 0.9 2 0 0 0</pose>
+			<diffuse>0.8 0.8 0.8 1</diffuse>
+			<specular>0.2 0.2 0.2 1</specular>
+			<intensity>4</intensity>
+		</light>
+
+		<light type="point" name="p2">
+			<cast_shadows>true</cast_shadows>
+			<pose>-1.4 0.9 2 0 0 0</pose>
+			<diffuse>0.8 0.8 0.8 1</diffuse>
+			<specular>0.2 0.2 0.2 1</specular>
+			<intensity>4</intensity>
+		</light>
+
+		<light type="point" name="p3">
+			<cast_shadows>true</cast_shadows>
+			<pose>1.4 -0.9 2 0 0 0</pose>
+			<diffuse>0.8 0.8 0.8 1</diffuse>
+			<specular>0.2 0.2 0.2 1</specular>
+			<intensity>4</intensity>
+		</light>
+		<light type="point" name="p4">
+			<cast_shadows>true</cast_shadows>
+			<pose>-1.4 -0.9 2 0 0 0</pose>
+			<diffuse>0.8 0.8 0.8 1</diffuse>
+			<specular>0.2 0.2 0.2 1</specular>
+			<intensity>4</intensity>
+		</light>
+	</world>
+</sdf>

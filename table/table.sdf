@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<?xml-model href="https://sdformat.org/schemas/root.xsd" type="application/xml"?>
+
+<sdf version="1.12">
+	<model name="table">
+		<link name="vinyle">
+			<collision name="collision">
+				<geometry> <plane> <size>3 2</size> </plane> </geometry>
+			</collision>
+			<visual name="visual">
+				<geometry> <mesh> <uri>model://table/meshes/vinyle.obj</uri> <scale>1 1 1</scale> </mesh> </geometry>
+				<pose>0 0 0 1.5708 0 0</pose>
+			</visual>
+		</link>
+		<link name="visu_table">
+			<visual name="visual">
+				<geometry> <mesh> <uri>model://table/meshes/table.obj</uri> <scale>1 1 1</scale> </mesh> </geometry>
+				<pose>0 0 0 1.5708 0 0</pose>
+			</visual>
+		</link>
+		<link name="bordure1">
+			<collision name="collision">
+				<geometry> <box> <size>3.044 0.022 0.07</size> </box> </geometry>
+				<pose>0 1.011 0.035 0 0 0</pose>
+			</collision>
+		</link>
+		<link name="bordure2">
+			<collision name="collision">
+				<geometry> <box> <size>3.044 0.022 0.07</size> </box> </geometry>
+				<pose>0 -1.011 0.035 0 0 0</pose>
+			</collision>
+		</link>
+		<link name="bordure3">
+			<collision name="collision">
+				<geometry> <box> <size>0.022 2.044 0.07</size> </box> </geometry>
+				<pose>1.511 0 0.035 0 0 0</pose>
+			</collision>
+		</link>
+		<link name="bordure4">
+			<collision name="collision">
+				<geometry> <box> <size>0.022 2.044 0.07</size> </box> </geometry>
+				<pose>-1.511 0 0.035 0 0 0</pose>
+			</collision>
+		</link>
+		<static>true</static>
+	</model>
+</sdf>
